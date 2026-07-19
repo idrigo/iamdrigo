@@ -153,6 +153,56 @@ a:focus-visible,
   padding: clamp(4rem, 10vh, 7rem) clamp(1.25rem, 5vw, 2rem);
 }
 
+/* ---------- portrait island ---------- */
+
+.portrait {
+  position: absolute;
+  right: clamp(2rem, 7vw, 7rem);
+  top: 50%;
+  transform: translateY(-50%);
+  width: clamp(14rem, 24vw, 21rem);
+  margin: 0;
+}
+
+.portrait svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.portrait .coast {
+  fill: none;
+  stroke: var(--ink);
+  stroke-opacity: 0.55;
+  stroke-width: 1.3;
+}
+
+.portrait .ring {
+  fill: none;
+  stroke: var(--ink);
+  stroke-width: 1;
+}
+
+.portrait .ring-inner { stroke-opacity: 0.28; }
+.portrait .ring-outer { stroke-opacity: 0.14; }
+
+@media (max-width: 64rem) {
+  .hero {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .portrait {
+    position: static;
+    transform: none;
+    order: -1;
+    width: 11.5rem;
+    margin: 3.5rem 0 -2.75rem;
+  }
+  .hero-inner { padding-top: 2.5rem; }
+  /* the plotted course collides with the portrait on small screens */
+  .course, .waypoints { display: none; }
+}
+
 .coords {
   font-family: var(--font-mono);
   font-size: 0.8125rem;
