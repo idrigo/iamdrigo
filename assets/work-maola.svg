@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <rect width="400" height="250" fill="#eef3f2"/>
+  <!-- ocean cross-section -->
+  <rect x="0" y="72" width="400" height="178" fill="#d9e6ec"/>
+  <path d="M0,72 L400,72" stroke="#8fadc7" stroke-width="1.5"/>
+  <!-- seamount -->
+  <path d="M20,250 C90,244 120,208 160,160 C185,130 195,108 200,102 C205,108 218,134 244,166 C282,212 320,244 385,250 Z" fill="#8fadc7"/>
+  <path d="M110,250 C150,230 175,190 200,148 C225,190 252,228 292,250 Z" fill="#6b93b5"/>
+  <!-- depth contours around the peak -->
+  <g fill="none" stroke="#4f7aa3" stroke-width="1.3" stroke-dasharray="5 4" opacity="0.8">
+    <path d="M150,168 C180,156 220,156 250,168"/>
+    <path d="M126,198 C168,182 232,182 276,198"/>
+    <path d="M100,228 C158,208 242,208 302,228"/>
+  </g>
+  <!-- summit mark -->
+  <path d="M195,102 L205,102 M200,97 L200,107" stroke="#24466a" stroke-width="2"/>
+  <!-- sounding line from yacht to summit -->
+  <path d="M200,70 L200,94" stroke="#24466a" stroke-width="1.4" stroke-dasharray="4 3"/>
+  <!-- yacht on the surface above the peak -->
+  <g transform="translate(200,66)">
+    <path d="M-20,0 C-14,7 14,7 20,0 Z" fill="#14283a"/>
+    <line x1="0" y1="0" x2="0" y2="-40" stroke="#14283a" stroke-width="1.8"/>
+    <path d="M-1.5,-38 C-13,-24 -15,-10 -14,-1 L-1.5,-1 Z" fill="#c42a6e"/>
+    <path d="M3,-34 C10,-22 12,-9 11,-1 L3,-1 Z" fill="#c42a6e" fill-opacity="0.55"/>
+  </g>
+</svg>
