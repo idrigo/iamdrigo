@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <rect width="400" height="250" fill="#eef3f2"/>
+  <!-- model grid -->
+  <g stroke="#14283a" stroke-opacity="0.16" stroke-width="1">
+    <line x1="25" y1="25" x2="25" y2="225"/><line x1="75" y1="25" x2="75" y2="225"/>
+    <line x1="125" y1="25" x2="125" y2="225"/><line x1="175" y1="25" x2="175" y2="225"/>
+    <line x1="225" y1="25" x2="225" y2="225"/><line x1="275" y1="25" x2="275" y2="225"/>
+    <line x1="325" y1="25" x2="325" y2="225"/><line x1="375" y1="25" x2="375" y2="225"/>
+    <line x1="25" y1="25" x2="375" y2="25"/><line x1="25" y1="75" x2="375" y2="75"/>
+    <line x1="25" y1="125" x2="375" y2="125"/><line x1="25" y1="175" x2="375" y2="175"/>
+    <line x1="25" y1="225" x2="375" y2="225"/>
+  </g>
+  <!-- terrain contours -->
+  <g fill="none" stroke="#14283a" stroke-opacity="0.45" stroke-width="1.2">
+    <path d="M60,200 C90,150 130,130 170,140 C210,150 235,185 270,200"/>
+    <path d="M95,200 C115,168 145,155 175,162 C205,169 225,188 245,200"/>
+    <path d="M130,200 C142,185 160,178 178,182 C196,186 208,194 218,200"/>
+  </g>
+  <!-- nested high-res domain -->
+  <rect x="125" y="75" width="150" height="100" fill="#c42a6e" fill-opacity="0.07" stroke="#c42a6e" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <g font-family="IBM Plex Mono, monospace" font-size="10">
+    <text x="133" y="92" fill="#c42a6e">d02 · 1 km</text>
+    <text x="31" y="43" fill="#5e7285">d01 · 9 km</text>
+  </g>
+</svg>

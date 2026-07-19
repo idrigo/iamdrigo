@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <rect width="400" height="250" fill="#eef3f2"/>
+  <!-- wind barbs -->
+  <g stroke="#14283a" stroke-opacity="0.5" stroke-width="1.2" fill="none" stroke-linecap="round">
+    <g transform="translate(60,55) rotate(20)"><line x1="0" y1="0" x2="0" y2="-24"/><line x1="0" y1="-24" x2="9" y2="-19"/><line x1="0" y1="-17" x2="9" y2="-12"/></g>
+    <g transform="translate(140,45) rotate(30)"><line x1="0" y1="0" x2="0" y2="-24"/><line x1="0" y1="-24" x2="9" y2="-19"/><line x1="0" y1="-17" x2="9" y2="-12"/></g>
+    <g transform="translate(225,55) rotate(40)"><line x1="0" y1="0" x2="0" y2="-24"/><line x1="0" y1="-24" x2="9" y2="-19"/></g>
+    <g transform="translate(310,50) rotate(35)"><line x1="0" y1="0" x2="0" y2="-24"/><line x1="0" y1="-24" x2="9" y2="-19"/><line x1="0" y1="-17" x2="9" y2="-12"/></g>
+    <g transform="translate(70,125) rotate(25)"><line x1="0" y1="0" x2="0" y2="-24"/><line x1="0" y1="-24" x2="9" y2="-19"/></g>
+    <g transform="translate(330,130) rotate(45)"><line x1="0" y1="0" x2="0" y2="-24"/><line x1="0" y1="-24" x2="9" y2="-19"/><line x1="0" y1="-17" x2="9" y2="-12"/></g>
+    <g transform="translate(90,195) rotate(30)"><line x1="0" y1="0" x2="0" y2="-24"/><line x1="0" y1="-24" x2="9" y2="-19"/></g>
+    <g transform="translate(170,205) rotate(35)"><line x1="0" y1="0" x2="0" y2="-24"/><line x1="0" y1="-24" x2="9" y2="-19"/><line x1="0" y1="-17" x2="9" y2="-12"/></g>
+    <g transform="translate(255,200) rotate(40)"><line x1="0" y1="0" x2="0" y2="-24"/><line x1="0" y1="-24" x2="9" y2="-19"/></g>
+    <g transform="translate(335,205) rotate(50)"><line x1="0" y1="0" x2="0" y2="-24"/><line x1="0" y1="-24" x2="9" y2="-19"/><line x1="0" y1="-17" x2="9" y2="-12"/></g>
+  </g>
+  <!-- sailboat -->
+  <g transform="translate(200,128)">
+    <path d="M-34,22 C-24,32 24,32 34,22 L40,12 L-40,12 Z" fill="#14283a"/>
+    <line x1="0" y1="12" x2="0" y2="-52" stroke="#14283a" stroke-width="2"/>
+    <path d="M-2,-50 C-20,-30 -24,-10 -22,8 L-2,8 Z" fill="#c42a6e"/>
+    <path d="M4,-46 C16,-28 19,-10 18,8 L4,8 Z" fill="#c42a6e" fill-opacity="0.55"/>
+  </g>
+</svg>
