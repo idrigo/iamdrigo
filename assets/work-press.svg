@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <rect width="400" height="250" fill="#eef3f2"/>
+  <!-- newspaper page -->
+  <rect x="70" y="18" width="260" height="232" fill="#ffffff"/>
+  <!-- masthead -->
+  <rect x="88" y="34" width="104" height="9" rx="2" fill="#24466a"/>
+  <rect x="266" y="36" width="46" height="5" rx="2" fill="#98a2b3"/>
+  <path d="M88,52 L312,52" stroke="#24466a" stroke-width="2"/>
+  <!-- headline -->
+  <rect x="88" y="64" width="224" height="12" rx="2" fill="#101828"/>
+  <rect x="88" y="82" width="164" height="12" rx="2" fill="#101828"/>
+  <!-- photo: synoptic chart -->
+  <g>
+    <rect x="88" y="106" width="140" height="96" fill="#d9e6ec"/>
+    <g fill="none" stroke="#8fadc7" stroke-width="1.5">
+      <path d="M88,132 C118,124 148,138 176,130 C200,124 216,132 228,128"/>
+      <path d="M88,158 C120,150 152,164 182,156 C204,151 218,158 228,154"/>
+      <path d="M88,184 C122,177 156,190 188,182 C208,178 220,184 228,181"/>
+    </g>
+    <!-- warm front -->
+    <path d="M96,120 C130,140 160,178 220,194" fill="none" stroke="#c42a6e" stroke-width="3"/>
+    <g fill="#c42a6e">
+      <path d="M124,136 a7,7 0 0 1 10,8 z"/>
+      <path d="M158,162 a7,7 0 0 1 10,8 z"/>
+      <path d="M192,184 a7,7 0 0 1 10,8 z"/>
+    </g>
+  </g>
+  <!-- columns -->
+  <g fill="#c9d4de">
+    <rect x="240" y="106" width="72" height="6" rx="2"/>
+    <rect x="240" y="118" width="72" height="6" rx="2"/>
+    <rect x="240" y="130" width="56" height="6" rx="2"/>
+    <rect x="240" y="150" width="72" height="6" rx="2"/>
+    <rect x="240" y="162" width="72" height="6" rx="2"/>
+    <rect x="240" y="174" width="64" height="6" rx="2"/>
+    <rect x="240" y="194" width="72" height="6" rx="2"/>
+  </g>
+  <g fill="#dde5ec">
+    <rect x="88" y="214" width="224" height="6" rx="2"/>
+    <rect x="88" y="226" width="188" height="6" rx="2"/>
+    <rect x="88" y="238" width="204" height="6" rx="2"/>
+  </g>
+</svg>

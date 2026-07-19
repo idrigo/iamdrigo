@@ -90,6 +90,9 @@ a:focus-visible,
 
 .topnav a:hover { color: var(--magenta); }
 
+.topnav a.ext { color: var(--magenta); }
+.topnav a.ext:hover { text-decoration: underline; text-underline-offset: 3px; }
+
 /* ---------- hero ---------- */
 
 .hero {
