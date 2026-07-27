@@ -385,6 +385,40 @@ a:focus-visible,
 
 .edu-line .mono { color: var(--magenta); margin-right: 0.4rem; }
 
+/* ---------- toolbox ---------- */
+
+.kit {
+  border-top: 1px solid var(--hairline);
+}
+
+.kit > div {
+  display: grid;
+  grid-template-columns: 9rem 1fr;
+  gap: 1.5rem;
+  padding: 1.4rem 0;
+  border-bottom: 1px solid var(--hairline);
+}
+
+.kit dt {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--slate);
+  padding-top: 0.2rem;
+}
+
+.kit dd {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: color-mix(in srgb, var(--ink) 82%, var(--slate));
+  max-width: 58ch;
+}
+
+@media (max-width: 40rem) {
+  .kit > div { grid-template-columns: 1fr; gap: 0.5rem; }
+}
+
 /* ---------- work grid ---------- */
 
 .section-wide { max-width: 64rem; }
