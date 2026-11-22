@@ -30,7 +30,7 @@ Numerical weather prediction (WRF, MPAS), ocean models (NEMO, SHYFEM), AI weathe
 - [Arctic sea-ice data-driven modelling](https://github.com/idrigo/arctic_ddmodeling): open-source code.
 - [How the weather in Russia changed since the 1940s](https://yandex.ru/company/researches/2024/weather-change) (Yandex, 2024, in Russian)
 - [Weather at the World Cup](https://yandex.ru/company/researches/2022/football-weather) (Yandex, 2022, in Russian)
-- [WRF on Oracle Cloud for Windy.app](https://blogs.oracle.com/cloud-infrastructure/post/hpc-hub-and-oracle-cloud-infrastructure-optimizing-cost-and-performance-for-weather-prediction-for-windyapp)
+- [WRF on Oracle Cloud for Windy.app](https://blogs.oracle.com/cloud-infrastructure/hpc-hub-and-oracle-cloud-infrastructure-optimizing-cost-and-performance-for-weather-prediction-for-windyapp)
 - [Climate Digest](https://digest.iamdrigo.com)
 
 ## Talks
