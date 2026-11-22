@@ -38,6 +38,7 @@ Numerical weather prediction (WRF, MPAS), ocean models (NEMO, SHYFEM), AI weathe
 - May 2026: [Life and work on a research vessel](https://sciencehub.site/en/events/life-and-work-on-a-research-vessel-first-person-accounts), ScienceHub (Russian).
 - Nov 2023: Weather forecasting lecture at Vukobratović Robotics Days ([Domino Magazin](https://www.dominomagazin.com/it/robotska-ruka-privukla-veliku-paznju-na-tehnoloskom-dogadjaju-za-najmladje-u-beogradu/), Serbian).
 - [How weather forecasts are made for sailors](https://youtu.be/Wu7RpiRBFp4) (video, Russian).
+- [Technoradio podcast: what we know about weather forecasting](https://podcast.ru/e/91C5Ky32WOj) (Yandex, Russian).
 - 15+ industry conferences for Yandex Weather, 2021-2025.
 
 ## Optional
