@@ -7,7 +7,7 @@ Contact: ilya.drigo@gmail.com · Telegram @idrigo (https://t.me/idrigo) · Linke
 ## Current work (November 2026)
 
 - OpenWeather, Client Solutions Lead: technical pre-sales and solution design for enterprise clients using weather API and bulk data; R&D on extreme weather forecasting.
-- Solent tidal currents: SHYFEM forecast of surface currents in the Solent (UK) at ~220 m resolution for the SavvyNavvy sailing app (https://savvynavvy.com).
+- Solent tidal currents: SHYFEM forecast of surface currents in the Solent (UK) at ~220 m resolution.
 - Ocean research: deep currents in the Vema Channel, from data collected on the R/V Akademik Ioffe cruise AI-71 (winter 2025/26). Publications: https://scholar.google.com/citations?user=tCIJt7YAAAAJ
 
 ## Experience
