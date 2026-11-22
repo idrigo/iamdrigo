@@ -244,7 +244,14 @@ a:focus-visible,
 
 .hero-role {
   color: var(--slate);
+  max-width: 34rem;
   margin-bottom: 2.25rem;
+}
+
+.hero-aside {
+  margin-top: 1.5rem;
+  font-size: 0.9375rem;
+  color: var(--slate);
 }
 
 .hero-links, .contact-links {
@@ -492,17 +499,78 @@ a:focus-visible,
 
 .workgrid a:hover .work-title { color: var(--magenta); }
 
+/* ---------- talks ---------- */
+
+.talks {
+  list-style: none;
+  border-top: 1px solid var(--hairline);
+}
+
+.talks li {
+  display: grid;
+  grid-template-columns: 9rem 1fr;
+  column-gap: 1.5rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--hairline);
+  font-size: 0.9375rem;
+}
+
+.talk-date {
+  grid-row: span 2;
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  color: var(--slate);
+  padding-top: 0.15rem;
+}
+
+.talks a { color: var(--ink); text-decoration: none; font-weight: 500; }
+.talks a:hover { color: var(--magenta); }
+
+.talk-where {
+  font-size: 0.84375rem;
+  color: var(--slate);
+}
+
+@media (max-width: 40rem) {
+  .talks li { grid-template-columns: 1fr; }
+  .talk-date { grid-row: auto; }
+}
+
 /* ---------- contact & footer ---------- */
 
 .contact { padding-bottom: 2rem; }
 
 .contact .prose { margin-bottom: 2rem; }
 
+.bio {
+  margin-top: 2.5rem;
+  border-top: 1px solid var(--hairline);
+  padding-top: 1.25rem;
+  max-width: 62ch;
+}
+
+.bio summary {
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  color: var(--slate);
+}
+
+.bio summary:hover { color: var(--magenta); }
+
+.bio p {
+  margin-top: 0.9rem;
+  font-size: 0.9375rem;
+  color: color-mix(in srgb, var(--ink) 82%, var(--slate));
+}
+
 .footer {
   text-align: center;
   color: var(--slate);
   padding: 4rem 1rem 2.5rem;
 }
+
+.footer a { color: inherit; }
 
 /* ---------- reveal on scroll ---------- */
 

@@ -1,0 +1,53 @@
+# Ilya Drigo
+
+> Ilya Drigo (Илья Дриго) is a meteorologist and physical oceanographer. Client Solutions Lead at OpenWeather since 2026. Previously Senior Research Meteorologist at Yandex Weather (2021-2025) and Meteorology Research Lead at Windy.app (2019-2021). Works on weather forecasting, climate risk and ocean modelling for business clients.
+
+Contact: ilya.drigo@gmail.com · Telegram @idrigo (https://t.me/idrigo) · LinkedIn https://linkedin.com/in/ilya-drigo/ · GitHub https://github.com/idrigo · Google Scholar https://scholar.google.com/citations?user=tCIJt7YAAAAJ
+
+## Current work (November 2026)
+
+- OpenWeather, Client Solutions Lead: technical pre-sales and solution design for enterprise clients using weather API and bulk data; R&D on extreme weather forecasting.
+- Solent tidal currents: SHYFEM forecast of surface currents in the Solent (UK) at ~220 m resolution for the SavvyNavvy sailing app (https://savvynavvy.com).
+- Ocean research: deep currents in the Vema Channel, from data collected on the R/V Akademik Ioffe cruise AI-71 (winter 2025/26). Publications: https://scholar.google.com/citations?user=tCIJt7YAAAAJ
+
+## Experience
+
+- 2026-present: Client Solutions Lead, OpenWeather (remote).
+- 2025-2026: Independent consultant and researcher. CMIP6 climate-risk model (team lead), probabilistic forecasting pipeline on ECMWF AIFS, ML wind forecast tool for sailors, physical oceanographer on the AI-71 Atlantic cruise.
+- 2021-2025: Senior Research Meteorologist, Yandex Weather (Meteum). Technical lead on 50+ B2B projects; $200K+ revenue from ten climate-risk deals; precipitation nowcasting launch (+20% ARPU in exposed cohorts); WRF hail hindcasting for insurance; +23% urban forecast accuracy.
+- 2019-2021: Meteorology Research Lead, Windy.app. 15+ B2B forecasting solutions for wind and solar generation; radar nowcasting (75% POD at 10 min); operational WRF for coastal Europe and Japan; weather routing.
+- 2018-2019: Research Assistant, ITMO University. NEMO sea-ice model coupled with deep learning; ice-thickness RMSE reduced by 19%.
+- 2017-2018: Hydrometeorology Engineer, Marine Research Center, Moscow State University. Physical oceanography on three expeditions.
+
+## Education
+
+- M.Sc. Applied and Computational Mathematics (Big Data & ML), ITMO University, 2020.
+- B.Sc. Hydrometeorology (Oceanography), Lomonosov Moscow State University, with honours, 2018.
+
+## Expertise
+
+Numerical weather prediction (WRF, MPAS), ocean models (NEMO, SHYFEM), AI weather models (ECMWF AIFS, GraphCast, Pangu-Weather), ensemble and probabilistic forecasting, forecast verification, radar nowcasting, CMIP6 climate risk, bias correction and downscaling, Python, PyTorch, xarray, Dask, HPC.
+
+## Projects and publications
+
+- [Ocean Peaks](https://maola.org/): sailing expedition studying seamounts and ocean eddies from the yacht MAOLA; website built by Ilya.
+- [Climate Insight at Meteum](https://b2b.meteum.ai/blog/posts/how-meteums-climate-insight-helps-businesses-adapt-to-climate-risks): CMIP6 climate-risk pipeline.
+- [Seasonal forecasts with machine learning](https://b2b.meteum.ai/blog/posts/how-meteum-uses-machine-learning-to-create-seasonal-forecasts)
+- [Arctic sea-ice data-driven modelling](https://github.com/idrigo/arctic_ddmodeling): open-source code.
+- [How the weather in Russia changed since the 1940s](https://yandex.ru/company/researches/2024/weather-change) (Yandex, 2024, in Russian)
+- [Weather at the World Cup](https://yandex.ru/company/researches/2022/football-weather) (Yandex, 2022, in Russian)
+- [WRF on Oracle Cloud for Windy.app](https://blogs.oracle.com/cloud-infrastructure/post/hpc-hub-and-oracle-cloud-infrastructure-optimizing-cost-and-performance-for-weather-prediction-for-windyapp)
+- [Climate Digest](https://digest.iamdrigo.com)
+
+## Talks
+
+- Oct 2026: [Who buys weather, and why](https://ifaran.ru/ru/seminars/14535), Institute of Atmospheric Physics RAS (online, Russian).
+- May 2026: [Life and work on a research vessel](https://sciencehub.site/en/events/life-and-work-on-a-research-vessel-first-person-accounts), ScienceHub (Russian).
+- Nov 2023: Weather forecasting lecture at Vukobratović Robotics Days ([Domino Magazin](https://www.dominomagazin.com/it/robotska-ruka-privukla-veliku-paznju-na-tehnoloskom-dogadjaju-za-najmladje-u-beogradu/), Serbian).
+- [How weather forecasts are made for sailors](https://youtu.be/Wu7RpiRBFp4) (video, Russian).
+- 15+ industry conferences for Yandex Weather, 2021-2025.
+
+## Optional
+
+- [Full site](https://iamdrigo.com/)
+- [CV, PDF](https://iamdrigo.com/assets/Ilya-Drigo-CV.pdf)

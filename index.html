@@ -3,61 +3,84 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ilya Drigo · Weather, climate and ocean data</title>
-  <meta name="description" content="Ilya Drigo, Client Solutions Lead at OpenWeather. Oceanographer and meteorologist, nine years of work on weather, climate and ocean data for business.">
-  <meta property="og:title" content="Ilya Drigo · Weather, climate and ocean data">
-  <meta property="og:description" content="Oceanographer and meteorologist, nine years of work on weather, climate and ocean data for business.">
+  <title>Ilya Drigo · Meteorologist and oceanographer</title>
+  <meta name="description" content="Ilya Drigo (Илья Дриго), meteorologist and physical oceanographer. Client Solutions Lead at OpenWeather; previously Yandex Weather and Windy.app. Weather forecasting, climate risk and ocean modelling.">
+  <meta name="author" content="Ilya Drigo">
+  <meta property="og:title" content="Ilya Drigo · Meteorologist and oceanographer">
+  <meta property="og:description" content="Client Solutions Lead at OpenWeather. Nine years in commercial weather forecasting, climate risk and ocean research.">
   <meta property="og:url" content="https://iamdrigo.com/">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="profile">
   <meta property="og:image" content="https://iamdrigo.com/assets/portrait.jpg">
   <meta name="twitter:card" content="summary">
   <link rel="canonical" href="https://iamdrigo.com/">
+  <link rel="alternate" type="text/plain" href="https://iamdrigo.com/llms.txt" title="Plain-text profile for language models">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Ilya Drigo",
+    "@type": "ProfilePage",
     "url": "https://iamdrigo.com/",
-    "image": "https://iamdrigo.com/assets/portrait.jpg",
-    "jobTitle": "Client Solutions Lead",
-    "description": "Oceanographer and meteorologist working on weather, climate and ocean data for enterprise clients.",
-    "worksFor": {
-      "@type": "Organization",
-      "name": "OpenWeather",
-      "url": "https://openweathermap.org"
-    },
-    "alumniOf": [
-      { "@type": "CollegeOrUniversity", "name": "ITMO University" },
-      { "@type": "CollegeOrUniversity", "name": "Moscow State University" }
-    ],
-    "knowsAbout": [
-      "Meteorology",
-      "Physical oceanography",
-      "Numerical weather prediction",
-      "Climate risk",
-      "Machine learning for weather forecasting"
-    ],
-    "sameAs": [
-      "https://linkedin.com/in/ilya-drigo/",
-      "https://github.com/idrigo"
-    ]
+    "dateModified": "2026-11-22",
+    "mainEntity": {
+      "@type": "Person",
+      "@id": "https://iamdrigo.com/#person",
+      "name": "Ilya Drigo",
+      "alternateName": ["Илья Дриго", "Ilia Drigo", "idrigo"],
+      "url": "https://iamdrigo.com/",
+      "image": "https://iamdrigo.com/assets/portrait.jpg",
+      "email": "mailto:ilya.drigo@gmail.com",
+      "jobTitle": "Client Solutions Lead",
+      "description": "Meteorologist and physical oceanographer. Client Solutions Lead at OpenWeather; previously Senior Research Meteorologist at Yandex Weather and Meteorology Research Lead at Windy.app.",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "OpenWeather",
+        "url": "https://openweathermap.org"
+      },
+      "alumniOf": [
+        { "@type": "CollegeOrUniversity", "name": "ITMO University" },
+        { "@type": "CollegeOrUniversity", "name": "Lomonosov Moscow State University" }
+      ],
+      "hasOccupation": [
+        { "@type": "Occupation", "name": "Meteorologist" },
+        { "@type": "Occupation", "name": "Physical oceanographer" }
+      ],
+      "knowsAbout": [
+        "Meteorology",
+        "Physical oceanography",
+        "Numerical weather prediction",
+        "WRF",
+        "Ensemble forecasting",
+        "Forecast verification",
+        "Precipitation nowcasting",
+        "Climate risk",
+        "CMIP6",
+        "Machine learning for weather forecasting",
+        "Tidal current modelling",
+        "Arctic sea ice"
+      ],
+      "sameAs": [
+        "https://linkedin.com/in/ilya-drigo/",
+        "https://github.com/idrigo",
+        "https://t.me/idrigo",
+        "https://scholar.google.com/citations?user=tCIJt7YAAAAJ"
+      ]
+    }
   }
   </script>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='13' fill='none' stroke='%23C42A6E' stroke-width='2.5'/%3E%3Cpath d='M16 5 L16 27 M5 16 L27 16' stroke='%23C42A6E' stroke-width='2.5'/%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;1,300;1,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20260728">
+  <link rel="stylesheet" href="styles.css?v=20261122">
 </head>
 <body>
 
   <header class="topbar">
     <a class="brand" href="#top">I. Drigo</a>
     <nav class="topnav" aria-label="Sections">
-      <a href="#about">About</a>
+      <a href="#now">Now</a>
       <a href="#experience">Experience</a>
-      <a href="#toolbox">Toolbox</a>
       <a href="#work">Work</a>
+      <a href="#talks">Talks</a>
       <a href="#contact">Contact</a>
       <a href="assets/Ilya-Drigo-CV.pdf" download>CV&nbsp;&#8595;</a>
       <a class="ext" href="https://digest.iamdrigo.com" rel="noopener">Digest&nbsp;&#8599;</a>
@@ -69,7 +92,6 @@
     <!-- ============ HERO ============ -->
     <section class="hero">
       <svg class="chart" viewBox="0 0 1200 640" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
-        <!-- bathymetry contours -->
         <g class="contours">
           <path d="M-50,520 C150,470 280,560 470,510 C660,460 780,545 980,495 C1120,460 1200,500 1260,480"/>
           <path d="M-50,440 C180,395 320,480 520,430 C700,385 830,465 1030,415 C1150,385 1220,420 1260,405"/>
@@ -78,7 +100,6 @@
           <path d="M-50,160 C240,130 440,200 640,165 C820,135 960,200 1160,162 C1220,150 1250,165 1260,160"/>
           <path d="M-50,75 C260,50 480,110 680,80 C860,55 1000,110 1200,78"/>
         </g>
-        <!-- depth soundings -->
         <g class="soundings">
           <text x="140" y="120">2840</text>
           <text x="230" y="320">1975</text>
@@ -89,7 +110,6 @@
           <text x="1060" y="520">118</text>
           <text x="90" y="560">47</text>
         </g>
-        <!-- plotted course -->
         <path class="course" d="M-20,150 C180,110 400,160 620,115 C820,75 970,110 1080,210 C1140,265 1155,430 1110,600"/>
         <g class="waypoints">
           <g transform="translate(150,133)"><path d="M-6,-6 L6,6 M-6,6 L6,-6"/></g>
@@ -103,16 +123,17 @@
         <p class="coords">Weather · Climate · Ocean</p>
         <h1>Ilya Drigo</h1>
         <p class="hero-lede">
-          Oceanographer and meteorologist. I work on weather, climate and ocean data
-          for companies that have to make decisions with it.
+          Meteorologist and oceanographer. I work out what a forecast can do for a business,
+          and then help build it.
         </p>
-        <p class="hero-role">Client Solutions Lead at <a href="https://openweathermap.org" rel="noopener">OpenWeather</a></p>
+        <p class="hero-role">Client Solutions Lead at <a href="https://openweathermap.org" rel="noopener">OpenWeather</a>. Before that, Yandex Weather and Windy.app.</p>
         <div class="hero-links">
-          <a class="btn" href="mailto:ilya.drigo@gmail.com">Say hello</a>
-          <a class="btn btn-ghost" href="assets/Ilya-Drigo-CV.pdf" download>Download CV&nbsp;&#8595;</a>
+          <a class="btn" href="mailto:ilya.drigo@gmail.com">ilya.drigo@gmail.com</a>
+          <a class="btn btn-ghost" href="https://t.me/idrigo" rel="noopener">Telegram @idrigo</a>
           <a class="btn btn-ghost" href="https://linkedin.com/in/ilya-drigo/" rel="noopener">LinkedIn</a>
-          <a class="btn btn-ghost" href="https://digest.iamdrigo.com" rel="noopener">Climate Digest&nbsp;&#8599;</a>
+          <a class="btn btn-ghost" href="assets/Ilya-Drigo-CV.pdf" download>CV&nbsp;&#8595;</a>
         </div>
+        <p class="hero-aside">I also put together a <a href="https://digest.iamdrigo.com" rel="noopener">Climate Digest&nbsp;&#8599;</a></p>
       </div>
 
       <figure class="portrait">
@@ -132,66 +153,85 @@
     <!-- ============ ABOUT ============ -->
     <section class="section" id="about">
       <p class="eyebrow">About</p>
-      <h2>How I got&nbsp;here</h2>
+      <h2>Oceanographer by training, meteorologist by trade</h2>
       <div class="prose reveal">
         <p>
-          I studied oceanography at Moscow State University and spent field seasons as a
-          hydrometeorology engineer on marine expeditions. A Master's in applied maths and
-          machine learning at ITMO moved me toward AI-driven forecasting, mostly of Arctic
-          sea ice.
+          I studied oceanography at Moscow State University and went to sea as a
+          hydrometeorology engineer. A Master's in applied maths and ML at ITMO got me
+          forecasting Arctic sea ice with neural networks.
         </p>
         <p>
-          Then I moved to industry: meteorology research at Windy.app, four years at Yandex
-          Weather as a senior research meteorologist, a period of independent consulting, and
-          now OpenWeather. I have led more than 50 B2B projects in insurance, agriculture,
-          energy and oil &amp; gas. My current work is technical pre-sales and solution design:
-          I tell clients what a model will and will not do for them.
+          Since 2019 I've worked in commercial weather: Windy.app, four years at Yandex Weather,
+          a stretch on my own, and now OpenWeather. Most of that time I was the meteorologist in
+          the room when a client asked whether a forecast was good enough for their decision.
         </p>
         <p>
-          I kept doing research the whole time. Most recently I spent two and a half months in
-          the Tropical Atlantic as a physical oceanographer, measuring deep channel currents;
-          those papers are under review. I still run WRF in my own time.
+          The science never stopped. Last winter I spent two and a half months in the tropical
+          Atlantic measuring deep currents in the Vema Channel. My publications are on
+          <a href="https://scholar.google.com/citations?user=tCIJt7YAAAAJ&amp;hl=en" rel="noopener">Google Scholar</a>.
         </p>
       </div>
       <dl class="stats reveal">
-        <div><dt>9+</dt><dd>years in weather &amp; climate</dd></div>
+        <div><dt>9+</dt><dd>years in weather and climate</dd></div>
         <div><dt>50+</dt><dd>B2B projects led</dd></div>
-        <div><dt>$200K+</dt><dd>revenue from climate risk deals</dd></div>
-        <div><dt>4</dt><dd>marine expeditions</dd></div>
+        <div><dt>$200K+</dt><dd>from climate-risk deals</dd></div>
+        <div><dt>4</dt><dd>research expeditions</dd></div>
+      </dl>
+    </section>
+
+    <!-- ============ NOW ============ -->
+    <section class="section" id="now">
+      <p class="eyebrow">Now · November 2026</p>
+      <h2>What I'm working on</h2>
+      <dl class="kit reveal">
+        <div>
+          <dt>OpenWeather</dt>
+          <dd>
+            Pre-sales and solution design for enterprise clients, and R&amp;D on extreme
+            weather forecasting.
+          </dd>
+        </div>
+        <div>
+          <dt>Solent currents</dt>
+          <dd>
+            A tidal current forecast for the Solent at about 220&nbsp;m resolution, built on
+            SHYFEM for the <a href="https://savvynavvy.com" rel="noopener">SavvyNavvy</a> sailing app.
+          </dd>
+        </div>
+        <div>
+          <dt>Ocean research</dt>
+          <dd>
+            Deep currents in the Vema Channel, from data collected on the Akademik Ioffe cruise.
+            Publications on <a href="https://scholar.google.com/citations?user=tCIJt7YAAAAJ&amp;hl=en" rel="noopener">Google Scholar</a>.
+          </dd>
+        </div>
       </dl>
     </section>
 
     <!-- ============ EXPERIENCE ============ -->
     <section class="section" id="experience">
       <p class="eyebrow">Experience</p>
-      <h2>Where I've been</h2>
+      <h2>Work history</h2>
 
       <ol class="log">
         <li class="entry reveal">
-          <p class="entry-dates">May 2026 — now</p>
+          <p class="entry-dates">2026 — now</p>
           <div class="entry-body">
             <h3>Client Solutions Lead · OpenWeather</h3>
             <p>
-              I am the meteorologist on the commercial side. I own technical pre-sales and
-              solution design for enterprise clients across API, bulk data and forecasting use cases, and
-              translate what people ask for into what the data can support. I also lead an R&amp;D
-              project on extreme weather event forecasting, where I shipped a correction algorithm
-              for the solar energy model, and I started an internal webinar series on how
-              forecasting works.
+              The meteorologist on the commercial side. I scope what enterprise clients need from
+              our API and bulk data, and lead R&amp;D on extreme weather forecasting.
             </p>
           </div>
         </li>
         <li class="entry reveal">
           <p class="entry-dates">2025 — 2026</p>
           <div class="entry-body">
-            <h3>Independent Consultant &amp; Researcher</h3>
+            <h3>Independent consultant and researcher</h3>
             <p>
-              Weather intelligence, ML and physical oceanography on contract. I led a team building
-              a statistical climate-risk model on the CMIP6 multi-model ensemble, covering hazard
-              indices, scenario comparison and uncertainty quantification. I also built a
-              probabilistic forecasting pipeline on ECMWF AIFS, advised large enterprises on ESG
-              and climate risk data, and productionised an ML wind-forecast tool for sailors,
-              which I originally wrote for myself.
+              Led a small team building a CMIP6 climate-risk model, built a probabilistic
+              forecasting pipeline on ECMWF AIFS, and turned my sailing wind forecast into a
+              working tool. Spent the winter at sea on the AI-71 cruise.
             </p>
           </div>
         </li>
@@ -200,12 +240,9 @@
           <div class="entry-body">
             <h3>Senior Research Meteorologist · Yandex Weather</h3>
             <p>
-              Primary meteorological consultant and technical lead on more than 50 B2B projects at
-              a hyperlocal forecasting service with over 80M monthly users. I brought in $200K+
-              across ten climate-risk deals in agriculture and oil &amp; gas, launched a precipitation
-              nowcasting product that raised ARPU by 20% in exposed cohorts, built high-resolution
-              WRF hail hindcasting for catastrophe insurance, and improved urban forecast accuracy
-              by 23%. I represented the company at more than 15 conferences.
+              Technical lead on 50+ B2B projects, from first call to delivery. Brought in $200K+
+              from ten climate-risk deals, launched precipitation nowcasting (+20% ARPU), built WRF
+              hail hindcasts for insurers and made city forecasts 23% more accurate.
             </p>
           </div>
         </li>
@@ -214,86 +251,43 @@
           <div class="entry-body">
             <h3>Meteorology Research Lead · Windy.app</h3>
             <p>
-              Weather research for an outdoor app with more than 10M installs. I delivered 15+ B2B
-              forecasting solutions for wind and solar generation, an enterprise nowcasting system
-              over multi-radar networks with 75% probability of detection at 10-minute lead time,
-              operational WRF for coastal Europe and Japan, and weather-routing algorithms for
-              maritime clients. I also wrote the API documentation that cut B2B onboarding time
-              by 40%.
+              Forecasts for 15+ wind and solar clients, a radar nowcasting system, operational WRF
+              for coastal Europe and Japan, and weather routing for boats.
             </p>
           </div>
         </li>
         <li class="entry reveal">
-          <p class="entry-dates">2018 — 2020</p>
+          <p class="entry-dates">2018 — 2019</p>
           <div class="entry-body">
             <h3>Research Assistant · ITMO University</h3>
             <p>
-              I coupled the NEMO sea-ice model with a deep-learning model trained on satellite
-              observations and cut ice-thickness forecast RMSE by 19%. The work produced
-              peer-reviewed papers and grants, along with applied projects for oil &amp; gas majors.
+              Coupled the NEMO sea-ice model with a neural network trained on satellite data.
+              Ice-thickness error dropped by 19%.
             </p>
           </div>
         </li>
         <li class="entry reveal">
           <p class="entry-dates">2017 — 2018</p>
           <div class="entry-body">
-            <h3>Lead Hydrometeorology Engineer · Marine Research Center, MSU</h3>
+            <h3>Hydrometeorology Engineer · Marine Research Center, MSU</h3>
             <p>
-              Physical oceanography lead on three marine expeditions: survey design, ADCP and CTD
-              measurements, and QA/QC automation that halved report turnaround.
+              Physical oceanography on three expeditions: ADCP and CTD surveys, plus the scripts
+              that halved report turnaround.
             </p>
           </div>
         </li>
       </ol>
 
       <div class="edu reveal">
-        <p class="edu-line"><span class="mono">M.Sc.</span> Applied &amp; Computational Mathematics (Big Data &amp; ML), ITMO University</p>
-        <p class="edu-line"><span class="mono">B.Sc.</span> Hydrometeorology and Oceanography, Moscow State University, with honours</p>
+        <p class="edu-line"><span class="mono">M.Sc.</span> Applied Mathematics (Big Data &amp; ML), ITMO University, 2020</p>
+        <p class="edu-line"><span class="mono">B.Sc.</span> Oceanography, Moscow State University, with honours, 2018</p>
       </div>
-    </section>
-
-    <!-- ============ TOOLBOX ============ -->
-    <section class="section" id="toolbox">
-      <p class="eyebrow">Toolbox</p>
-      <h2>What I work with</h2>
-
-      <dl class="kit reveal">
-        <div>
-          <dt>Weather &amp; climate</dt>
-          <dd>
-            WRF, MPAS, NEMO · AI models (ECMWF AIFS, GraphCast, Pangu-Weather) · ensemble and
-            probabilistic forecasting · verification and skill scoring · radar nowcasting ·
-            CMIP6 climate risk · GRIB2, NetCDF, Zarr
-          </dd>
-        </div>
-        <div>
-          <dt>ML &amp; data science</dt>
-          <dd>
-            PyTorch, TensorFlow, scikit-learn · deep learning on spatiotemporal data ·
-            statistical downscaling and bias correction · uncertainty quantification · MLOps
-          </dd>
-        </div>
-        <div>
-          <dt>Code &amp; infrastructure</dt>
-          <dd>
-            Python, R, Fortran, SQL · xarray, GeoPandas, NumPy, SciPy, Dask, ClickHouse ·
-            Docker, Ansible, Airflow, AWS · HPC/Slurm, OpenMP/MPI · ETL and CI/CD
-          </dd>
-        </div>
-        <div>
-          <dt>Client-facing work</dt>
-          <dd>
-            Technical pre-sales · requirements discovery · solution design · B2B negotiation ·
-            onboarding and integration support · API documentation · talks, workshops, mentoring
-          </dd>
-        </div>
-      </dl>
     </section>
 
     <!-- ============ SELECTED WORK ============ -->
     <section class="section section-wide" id="work">
       <p class="eyebrow">Selected work</p>
-      <h2>Research, publications and&nbsp;talks</h2>
+      <h2>Projects and research</h2>
 
       <ul class="workgrid">
         <li class="reveal">
@@ -301,8 +295,18 @@
             <img src="assets/work-maola.svg" alt="Ocean cross-section: a sailing yacht above a seamount with depth contours" loading="lazy">
             <span class="work-meta">
               <span class="work-tag">Expedition</span>
-              <span class="work-title">Ocean Peaks: a sailing circumnavigation for ocean science</span>
-              <span class="work-note">Studying seamounts and ocean eddies from the yacht MAOLA. I also built the project website</span>
+              <span class="work-title">Ocean Peaks</span>
+              <span class="work-note">Seamounts and eddies studied from a sailing yacht. I also made the website</span>
+            </span>
+          </a>
+        </li>
+        <li class="reveal">
+          <a href="https://savvynavvy.com" rel="noopener">
+            <img src="assets/work-solent.svg" alt="Map of a strait between a coast and an island, with a triangular model mesh and current arrows" loading="lazy">
+            <span class="work-meta">
+              <span class="work-tag">Ocean model</span>
+              <span class="work-title">Tidal currents in the Solent</span>
+              <span class="work-note">SHYFEM forecast at ~220 m for the SavvyNavvy app, built end to end</span>
             </span>
           </a>
         </li>
@@ -310,9 +314,9 @@
           <a href="https://b2b.meteum.ai/blog/posts/how-meteums-climate-insight-helps-businesses-adapt-to-climate-risks" rel="noopener">
             <img src="assets/work-climate.svg" alt="Chart of observed temperature anomaly with a projected upward trend and uncertainty band" loading="lazy">
             <span class="work-meta">
-              <span class="work-tag">Climate</span>
-              <span class="work-title">Climate Insight: helping businesses adapt to climate risks</span>
-              <span class="work-note">I built the climate forecasting pipeline behind Meteum's climate risk product</span>
+              <span class="work-tag">Climate risk</span>
+              <span class="work-title">Climate Insight at Meteum</span>
+              <span class="work-note">CMIP6 pipeline behind the product: 70 TB, bias-corrected and downscaled</span>
             </span>
           </a>
         </li>
@@ -321,18 +325,8 @@
             <img src="assets/work-seasonal.svg" alt="Ensemble forecast members diverging over six months with a highlighted mean" loading="lazy">
             <span class="work-meta">
               <span class="work-tag">Machine learning</span>
-              <span class="work-title">Machine learning for seasonal weather forecasts</span>
-              <span class="work-note">I co-developed the seasonal forecasting pipeline at Meteum</span>
-            </span>
-          </a>
-        </li>
-        <li class="reveal">
-          <a href="https://sciencehub.site/en/events/life-and-work-on-a-research-vessel-first-person-accounts" rel="noopener">
-            <img src="assets/work-vessel.svg" alt="Research vessel lowering a CTD probe over dashed bathymetry contours" loading="lazy">
-            <span class="work-meta">
-              <span class="work-tag">Talk</span>
-              <span class="work-title">Life and work on a research vessel</span>
-              <span class="work-note">Account of marine expeditions after a three-month Atlantic voyage. ScienceHub, Belgrade (in Russian)</span>
+              <span class="work-title">Seasonal forecasts with ML</span>
+              <span class="work-note">Eight ensembles combined for farmers in MENA and southern Russia</span>
             </span>
           </a>
         </li>
@@ -341,8 +335,8 @@
             <img src="assets/work-arctic.svg" alt="Polar map comparing past sea-ice extent with the present minimum" loading="lazy">
             <span class="work-meta">
               <span class="work-tag">Open source</span>
-              <span class="work-title">Arctic sea-ice data-driven modelling</span>
-              <span class="work-note">Deep learning for sea-ice forecasting, with the code on GitHub</span>
+              <span class="work-title">Arctic sea ice with deep learning</span>
+              <span class="work-note">My Master's work. Code on GitHub</span>
             </span>
           </a>
         </li>
@@ -351,8 +345,8 @@
             <img src="assets/work-stripes.svg" alt="Warming stripes: annual temperature shown as vertical stripes shifting from cool blues to warm magentas" loading="lazy">
             <span class="work-meta">
               <span class="work-tag">Research</span>
-              <span class="work-title">How the weather has changed since the 1940s</span>
-              <span class="work-note">Climate change study based on reanalysis and weather station records</span>
+              <span class="work-title">How Russia's weather changed since the 1940s</span>
+              <span class="work-note">Yandex study on reanalysis and station records (in Russian)</span>
             </span>
           </a>
         </li>
@@ -361,28 +355,8 @@
             <img src="assets/work-hpc.svg" alt="Numerical weather model grid with terrain contours and a nested high-resolution domain" loading="lazy">
             <span class="work-meta">
               <span class="work-tag">HPC</span>
-              <span class="work-title">Weather prediction on Oracle Cloud for Windy.app</span>
-              <span class="work-note">Running operational WRF in the cloud at lower cost</span>
-            </span>
-          </a>
-        </li>
-        <li class="reveal">
-          <a href="https://www.dominomagazin.com/it/robotska-ruka-privukla-veliku-paznju-na-tehnoloskom-dogadjaju-za-najmladje-u-beogradu/" rel="noopener">
-            <img src="assets/work-press.svg" alt="Newspaper page with a synoptic weather chart as the photo" loading="lazy">
-            <span class="work-meta">
-              <span class="work-tag">Press</span>
-              <span class="work-title">AI weather forecasting at Vukobratović Robotics Days</span>
-              <span class="work-note">Domino Magazin on my lecture for young engineers in Belgrade (in Serbian)</span>
-            </span>
-          </a>
-        </li>
-        <li class="reveal">
-          <a href="https://youtu.be/Wu7RpiRBFp4" rel="noopener">
-            <img src="assets/work-sailing.svg" alt="Sailboat in a field of wind barbs" loading="lazy">
-            <span class="work-meta">
-              <span class="work-tag">Talk</span>
-              <span class="work-title">How weather forecasts are made for sailors</span>
-              <span class="work-note">Lecture for the largest sailing school in Russia (in Russian)</span>
+              <span class="work-title">WRF on Oracle Cloud for Windy.app</span>
+              <span class="work-note">Operational weather model in the cloud, for less money</span>
             </span>
           </a>
         </li>
@@ -392,22 +366,82 @@
             <span class="work-meta">
               <span class="work-tag">Research</span>
               <span class="work-title">Weather at the World Cup</span>
-              <span class="work-note">Match-day weather across the history of the World Championship</span>
+              <span class="work-note">Match-day weather through the tournament's history (in Russian)</span>
             </span>
           </a>
         </li>
       </ul>
     </section>
 
+    <!-- ============ TALKS ============ -->
+    <section class="section" id="talks">
+      <p class="eyebrow">Talks and press</p>
+      <h2>Where I've spoken</h2>
+      <ul class="talks reveal">
+        <li>
+          <span class="talk-date">Oct 2026</span>
+          <a href="https://ifaran.ru/ru/seminars/14535" rel="noopener">Who buys weather, and why: Windy, Yandex and OpenWeather from the inside</a>
+          <span class="talk-where">Institute of Atmospheric Physics RAS, online · RU</span>
+        </li>
+        <li>
+          <span class="talk-date">May 2026</span>
+          <a href="https://sciencehub.site/en/events/life-and-work-on-a-research-vessel-first-person-accounts" rel="noopener">Life and work on a research vessel</a>
+          <span class="talk-where">ScienceHub · RU</span>
+        </li>
+        <li>
+          <span class="talk-date">Nov 2023</span>
+          <a href="https://www.dominomagazin.com/it/robotska-ruka-privukla-veliku-paznju-na-tehnoloskom-dogadjaju-za-najmladje-u-beogradu/" rel="noopener">How a weather forecast is made, for school students</a>
+          <span class="talk-where">Vukobratović Robotics Days · press in Serbian</span>
+        </li>
+        <li>
+          <span class="talk-date">Video</span>
+          <a href="https://youtu.be/Wu7RpiRBFp4" rel="noopener">How weather forecasts are made for sailors</a>
+          <span class="talk-where">Russia's largest sailing school · RU</span>
+        </li>
+        <li>
+          <span class="talk-date">Podcast</span>
+          <a href="https://techno.yandex.ru/weather" rel="noopener">Yandex Techno: how the weather forecast works</a>
+          <span class="talk-where">Popular-science special with a podcast episode · RU</span>
+        </li>
+        <li>
+          <span class="talk-date">2021–25</span>
+          <span>15+ industry conferences for Yandex Weather</span>
+          <span class="talk-where">RU</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ============ TOOLBOX ============ -->
+    <section class="section" id="toolbox">
+      <p class="eyebrow">Toolbox</p>
+      <h2>What I work with</h2>
+      <dl class="kit reveal">
+        <div>
+          <dt>Models</dt>
+          <dd>WRF, MPAS, NEMO, SHYFEM · ECMWF AIFS, GraphCast, Pangu-Weather · ensembles, verification, radar nowcasting, CMIP6</dd>
+        </div>
+        <div>
+          <dt>ML and data</dt>
+          <dd>PyTorch, scikit-learn · xarray, Dask, NumPy · bias correction, downscaling, uncertainty</dd>
+        </div>
+        <div>
+          <dt>Infrastructure</dt>
+          <dd>Python, Fortran, SQL · Docker, Airflow, AWS · HPC with Slurm and MPI</dd>
+        </div>
+        <div>
+          <dt>With clients</dt>
+          <dd>Pre-sales, scoping, solution design, onboarding, API docs, talks</dd>
+        </div>
+      </dl>
+    </section>
+
     <!-- ============ BEYOND ============ -->
     <section class="section" id="beyond">
-      <p class="eyebrow">Personal</p>
-      <h2>Outside of work</h2>
+      <p class="eyebrow">Outside work</p>
+      <h2>Mostly sailing</h2>
       <div class="prose reveal">
         <p>
-          Sailing takes most of the time left over, enough that I built an ML wind forecast tool
-          for the people I sail with. I also run a popular-science channel about the ocean, marine
-          expeditions and forecasting, and I give talks on those subjects when asked.
+          I wrote an ML wind forecast for the people I sail with, and it grew into a real tool.
         </p>
       </div>
     </section>
@@ -417,23 +451,36 @@
       <p class="eyebrow">Contact</p>
       <h2>Get in touch</h2>
       <p class="prose">
-        I am glad to talk about weather data, climate risk, ocean modelling or boats.
-        The full CV is a two-page PDF if you prefer the formal version.
+        Happy to talk about weather data, climate risk, ocean models or boats.
+        Email or Telegram is quickest.
       </p>
       <div class="contact-links">
         <a class="btn" href="mailto:ilya.drigo@gmail.com">ilya.drigo@gmail.com</a>
-        <a class="btn btn-ghost" href="assets/Ilya-Drigo-CV.pdf" download>Download CV&nbsp;&#8595;</a>
+        <a class="btn btn-ghost" href="https://t.me/idrigo" rel="noopener">Telegram @idrigo</a>
         <a class="btn btn-ghost" href="https://linkedin.com/in/ilya-drigo/" rel="noopener">LinkedIn</a>
         <a class="btn btn-ghost" href="https://github.com/idrigo" rel="noopener">GitHub</a>
+        <a class="btn btn-ghost" href="https://scholar.google.com/citations?user=tCIJt7YAAAAJ&amp;hl=en" rel="noopener">Google Scholar</a>
+        <a class="btn btn-ghost" href="assets/Ilya-Drigo-CV.pdf" download>CV&nbsp;&#8595;</a>
       </div>
+
+      <details class="bio">
+        <summary>Short bio for event organisers</summary>
+        <p>
+          Ilya Drigo is a meteorologist and physical oceanographer, Client Solutions Lead at
+          OpenWeather. Previously Senior Research Meteorologist at Yandex Weather and Meteorology
+          Research Lead at Windy.app. B.Sc. in oceanography from Moscow State University, M.Sc. in
+          applied mathematics and machine learning from ITMO University. Four marine research
+          expeditions, most recently a 2.5-month cruise to the tropical Atlantic.
+        </p>
+      </details>
     </section>
 
   </main>
 
   <footer class="footer">
-    <p class="mono">iamdrigo.com · <span id="year">2026</span></p>
+    <p class="mono">Ilya Drigo · Илья Дриго · <a href="llms.txt">llms.txt</a> · <span id="year">2026</span></p>
   </footer>
 
-  <script src="script.js?v=20260728"></script>
+  <script src="script.js?v=20261122"></script>
 </body>
 </html>

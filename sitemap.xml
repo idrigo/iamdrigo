@@ -2,8 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://iamdrigo.com/</loc>
-    <lastmod>2026-07-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-11-22</lastmod>
+  </url>
+  <url>
+    <loc>https://iamdrigo.com/llms.txt</loc>
+    <lastmod>2026-11-22</lastmod>
+  </url>
+  <url>
+    <loc>https://iamdrigo.com/assets/Ilya-Drigo-CV.pdf</loc>
   </url>
 </urlset>

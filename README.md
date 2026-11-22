@@ -7,7 +7,9 @@ Personal portfolio of Ilya Drigo — static site, no build step, no framework.
 - `index.html` — the whole site (one page)
 - `styles.css` — styles
 - `script.js` — scroll-reveal animation + footer year
-- `assets/` — SVG illustrations for the Selected work cards
+- `assets/` — SVG illustrations for the Selected work cards, CV PDF, portrait
+- `llms.txt` — plain-text profile for LLM crawlers; keep in sync with `index.html`
+- `robots.txt`, `sitemap.xml` — crawler access (AI bots explicitly allowed)
 - `CNAME` — custom domain for GitHub Pages
 
 ## Run locally
@@ -34,7 +36,7 @@ The `CNAME` file in the repo already declares the domain.
 **VPS (nginx/caddy):** copy the three files to the web root — nothing else needed.
 
 ```bash
-rsync -av index.html styles.css script.js assets user@vps:/var/www/iamdrigo/
+rsync -av index.html styles.css script.js llms.txt robots.txt sitemap.xml assets user@vps:/var/www/iamdrigo/
 ```
 
 ## Design notes
